@@ -2,15 +2,12 @@
 
 A new Flutter application.
 
-## Getting Started
+Problem Statement:
+-----------------
+- Use Firebase and Redux.
+- 1-2 simple UI Widgets that display data loaded using Redux init method and a call to Firebase from the redux middleware.
+- Use a button/form make an update using redux action, validating the input and then calling Firebase to update and also updating the redux datastore.
+- Data should come from Firebase, Domain model should use this data and some other data not from Firebase (anything about the device is good).
+- View model should be based on the Domain model but not have any logic.
+- Widget tests or unit tests.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
